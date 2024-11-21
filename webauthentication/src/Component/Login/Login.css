@@ -1,0 +1,24 @@
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    inset: 0;
+    background-image: linear-gradient(to top, rgba(251, 194, 235, 0.7) 0%, rgba(166, 193, 238, 0.7) 100%);
+
+}
+.Login-Form{ position: relative;background-color: white; color: black; width: auto; height: auto; padding: 1.5rem; border-radius: 1rem;}
+.Login-Form h3{font-weight: 600; font-family: 'Trebuchet MS', sans-serif; text-align: center;}
+.Login-Form .Input-login{ background-color: rgb(206, 204, 204); width: 20vw; height: 2.5rem; margin-top: 1.5rem; border-radius: 0.5rem;}
+.Login-Form .Input-login span{margin: 0.5rem;}
+.Login-Form .Input-login input{border: none; background: none; height: 2.5rem;padding-left: 0.5rem; color: grey;}
+.Login-Form .Input-login p{text-align: right; font-size: 0.8rem; color: grey; margin-bottom: 0.5rem; top: 0;}
+.Login-Form .Input-login input:focus{outline: none;}
+.form-button{background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%); width: 20vw; border-radius: 0.5rem; height: 2.5rem; margin-top: 2rem;}
+.loginWay2{margin-top: 2rem; display: flex; justify-content: center; flex-direction: column; align-items: center; }
+.loginWay2 h4{padding: 1rem; font-size: 0.8rem; color: grey;}
+.loginWay2 .social-media-login{display: flex; justify-content: center; align-items: center;}
+.loginWay2 .social-media-login .Media-icons-button{background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%); margin: 0.5rem; border-radius: 100%; border: none; padding: 0.7rem;}
+.SignUpUrl{text-align: right; font-size: 0.8rem; color: grey; margin: 2rem 0 0.5rem 0;  }
+.Login-Form 
+.closeButton {position: absolute; right: 10px; top: 10px; background: none; border: none; margin-bottom: 1rem;}
